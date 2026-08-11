@@ -65,7 +65,7 @@ source venv/bin/activate
 ### 3. Install Dependensi
 
 ```bash
-pip install customtkinter pillow rembg
+pip install -r requirements.txt
 ```
 
 > ⚠️ **Catatan:** `rembg` akan mengunduh model AI (~170 MB) secara otomatis saat pertama kali dijalankan. Pastikan koneksi internet tersedia.
@@ -94,11 +94,11 @@ python changebg.py
 
 ## 📦 Dependensi
 
-| Library | Versi | Fungsi |
-|---------|-------|--------|
-| `customtkinter` | 5.x | Framework UI modern berbasis Tkinter |
-| `Pillow` | 9.x+ | Pemrosesan dan manipulasi gambar |
-| `rembg` | 2.x | AI model untuk penghapusan background |
+| Library | Versi Minimum | Fungsi |
+|---------|--------------|--------|
+| `customtkinter` | ≥ 5.2.0 | Framework UI modern berbasis Tkinter |
+| `Pillow` | ≥ 10.0.0 | Pemrosesan dan manipulasi gambar |
+| `rembg` | ≥ 2.0.50 | AI model untuk penghapusan background |
 
 ---
 
@@ -107,9 +107,10 @@ python changebg.py
 ```
 Ai Change Background/
 │
-├── changebg.py       # File utama aplikasi
-├── README.md         # Dokumentasi proyek
-└── LICENSE           # Lisensi MIT
+├── changebg.py         # File utama aplikasi
+├── requirements.txt    # Daftar dependensi Python
+├── README.md           # Dokumentasi proyek
+└── LICENSE             # Lisensi MIT
 ```
 
 ---
@@ -137,7 +138,7 @@ pip install rembg==2.0.50
 **❌ Tampilan aplikasi tidak muncul / crash**
 > Pastikan semua dependensi terinstall dengan benar:
 ```bash
-pip install --upgrade customtkinter pillow rembg
+pip install -r requirements.txt --upgrade
 ```
 
 **❌ Window tidak bisa dipindahkan**
