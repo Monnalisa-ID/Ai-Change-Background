@@ -9,7 +9,7 @@
 ![License](https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge)
 
 **Aplikasi desktop berdesain macOS Glass UI untuk menghapus & mengganti latar belakang foto secara otomatis menggunakan AI.**
-
+<img src="https://github.com/Monnalisa-ID/Ai-Change-Background/blob/main/Ai-ChangeBackground.png"/>
 </div>
 
 ---
